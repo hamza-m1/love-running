@@ -189,6 +189,18 @@ main {
   color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+  width: 100%;
+  /* makes sure alt text is still visible */
+  line-height: 1em;
+}
+
+#photos {
+  /* remove white space between photos */
+  line-height: 0;
+}
+
 /* Footer */
 #social-networks {
   text-align: center;
